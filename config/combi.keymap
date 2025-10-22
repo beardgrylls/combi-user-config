@@ -21,12 +21,13 @@
 
         as: autoshift {
             compatible = "zmk,behavior-hold-tap";
-            label = ZM_autoshift;
+            display-name = "Autoshift";
+            bindings = <&kp>, <&kp>;
+
             #binding-cells = <2>;
             tapping-term-ms = <180>;
             quick-tap-ms = <0>;
             flavor = "balanced";
-            bindings = <&kp &kp>;
         };
     };
  {
