@@ -69,6 +69,7 @@
             #binding-cells = <0>;
             bindings = <&hm LGUI A>, <&kp TAB>;
             mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
         };
 
         as: autoshift {
